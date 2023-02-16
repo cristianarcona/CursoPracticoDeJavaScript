@@ -41,4 +41,5 @@ const img = document.createElement('img');
 img.setAttribute('src', 'https://images.pexels.com/photos/14437102/pexels-photo-14437102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
 img.style = 'width: 180px; height: 180px; border-radius: 20px; box-shadow: 5px 5px 8px 3px #c7c7c7' 
 pId.append(img);
+pId.append(img);
 pId.innerHTML
