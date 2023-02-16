@@ -27,6 +27,8 @@ h1.value = '456'
 //crear atributos en HTML desde javascript, en el ejemplo estamos creando una etiqueta <img>
 document.createElement('img')
 
+//Permite alternar la clase inactive en caso de tenerla la retira, en caso de no tenerla la agrega
+h1.classList.toggle('inactive')
 
 //Para "Escuchar" eventos del lado de HTML
 btnCalc.addEventListener('click', btnOnClick)
